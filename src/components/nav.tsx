@@ -33,7 +33,7 @@ const Nav = () => {
               key={index}
               href={`#${link.targetId}`}
               className={`text-sm ${index !== 0 ? "border-l-3 border-neutral-300/40 text-white pl-2" : " "} hover-opacity-50 `}
-              onClick={(e) => HandleScroll(e, link.targetId)}
+              // onClick={(e) => HandleScroll(e, link.targetId)}
             >
               {link.text}
             </a>
