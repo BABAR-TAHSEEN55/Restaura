@@ -1,7 +1,7 @@
-import about from "../../restaura-assets/assets/about.jpeg";
+import about from "../assets/about.jpeg";
 import { motion } from "framer-motion";
-import { ABOUT } from "../../restaura-assets/constants/index.jsx";
-import { delay } from "framer-motion/dom";
+import { ABOUT } from "../constants/constants.tsx";
+
 const About = () => {
   return (
     <section className="container mx-auto mb-7 " id="about">

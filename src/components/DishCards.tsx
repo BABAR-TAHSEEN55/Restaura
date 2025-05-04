@@ -1,4 +1,12 @@
-const DishCard = ({ project }) => {
+interface Project {
+  image: string;
+  title: string;
+  description: string;
+}
+interface ProjectProps {
+  project: Project;
+}
+const DishCard = ({ project }: ProjectProps) => {
   return (
     <div>
       <img src={project.image} alt={project.title} className="rounded-lg p-2" />

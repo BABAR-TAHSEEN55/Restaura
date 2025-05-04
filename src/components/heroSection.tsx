@@ -1,6 +1,6 @@
-import video from "../../restaura-assets/assets/hero.mp4";
-import hero from "../../restaura-assets/assets/hero.jpeg";
-import logo from "../../restaura-assets/assets/logo.png";
+import video from "../assets/hero.mp4";
+import hero from "../assets/hero.jpeg";
+import logo from "../assets/logo.png";
 import { motion } from "framer-motion";
 const HeroSection = () => {
   return (

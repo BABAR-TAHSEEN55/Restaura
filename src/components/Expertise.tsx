@@ -1,5 +1,4 @@
-import React from "react";
-import { CUSINES } from "../../restaura-assets/constants";
+import { CUSINES } from "../constants/constants.tsx";
 import { motion } from "framer-motion";
 const containerVariants = {
   hidden: { opacity: 0 },

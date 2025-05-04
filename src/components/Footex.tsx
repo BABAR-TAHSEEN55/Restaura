@@ -1,5 +1,4 @@
-import React from "react";
-import { SOCIAL_MEDIA_LINKS } from "../../restaura-assets/constants";
+import { SOCIAL_MEDIA_LINKS } from "../constants/constants.tsx";
 
 const Footer = () => {
   return (
@@ -24,3 +23,4 @@ const Footer = () => {
 };
 
 export default Footer;
+//Naming the file as .tsx as Jsx Components are being used like <FaFacebook/> etc

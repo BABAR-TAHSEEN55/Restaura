@@ -1,5 +1,5 @@
 import DishCard from "./DishCards";
-import { DISHES } from "../../restaura-assets/constants/index.tsx";
+import { DISHES } from "../constants/constants.tsx";
 const Dish = () => {
   return (
     <section className="container mx-auto py-16" id="dishes">

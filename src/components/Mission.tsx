@@ -1,6 +1,6 @@
-import mission from "../../restaura-assets/assets/mission.mp4";
+import mission from "../assets/mission.mp4";
 
-import missionImg from "../../restaura-assets/assets/mission.jpeg";
+import missionImg from "../assets/mission.jpeg";
 const Mission = () => {
   return (
     <section id="mission">

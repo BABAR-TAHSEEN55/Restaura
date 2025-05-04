@@ -1,6 +1,6 @@
 import { useState } from "react";
-import logo from "../../restaura-assets/assets/logo.png";
-import { LINKS } from "../../restaura-assets/constants/index.jsx";
+import logo from "../assets/logo.png";
+import { LINKS } from "../constants/constants.tsx";
 import { FaTimes } from "react-icons/fa";
 interface HandleScrollProps {
   e: Event;
