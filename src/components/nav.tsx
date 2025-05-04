@@ -2,27 +2,27 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import { LINKS } from "../constants/constants.tsx";
 import { FaTimes } from "react-icons/fa";
-interface HandleScrollProps {
-  e: Event;
-  targetId: string;
-}
+// interface HandleScrollProps {
+//   e: Event;
+//   targetId: string;
+// }
 const Nav = () => {
   const [isMobileMenuOpen, setisMobileMenuOpen] = useState(false);
   const toggleMenuOpen = () => {
     setisMobileMenuOpen(!isMobileMenuOpen);
   };
-  const HandleScroll = ({ e, targetId }: HandleScrollProps) => {
-    e.preventDefault();
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      const offSet = targetElement.offsetTop - 80;
-      window.scrollTo({
-        top: offSet,
-        behavior: "smooth",
-      });
-    }
-    setisMobileMenuOpen(false);
-  };
+  // const HandleScroll = ({ e, targetId }: HandleScrollProps) => {
+  //   e.preventDefault();
+  //   const targetElement = document.getElementById(targetId);
+  //   if (targetElement) {
+  //     const offSet = targetElement.offsetTop - 80;
+  //     window.scrollTo({
+  //       top: offSet,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  //   setisMobileMenuOpen(false);
+  // };
   return (
     <nav className="fixed top-4 flex w-full flex-col items-center justify-center ">
       <div className="w-full flex items-center justify-between overflow-hidden-y p-5 backdrop-blur-lg lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
