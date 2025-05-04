@@ -52,7 +52,7 @@ const Nav = () => {
               key={index}
               href={`#${link.targetId}`}
               className="block p-4 uppercase tracking-tighter"
-              onClick={(e) => HandleScroll(e, link.targetId)}
+              // onClick={(e) => HandleScroll(e, link.targetId)}
             >
               {link.text}
             </a>
