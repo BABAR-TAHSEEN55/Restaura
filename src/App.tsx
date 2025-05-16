@@ -5,6 +5,8 @@ import About from "./components/About";
 import Mission from "./components/Mission";
 import Expertise from "./components/Expertise";
 import Footer from "./components/Footex";
+import Reservation from "./components/Reservation.tsx";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
       <About />
       <Mission />
       <Expertise />
+      <Reservation />
       <Footer />
+      <ToastContainer position="top-right" />
     </div>
   );
 };
