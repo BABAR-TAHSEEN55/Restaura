@@ -1,4 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
 export default {
     PORT: 3000,
-    URI: "mongodb+srv://babar:7jnOXFsL37UikxuW@cluster0.fmjrv.mongodb.net/Reservation",
-}; 
+    URI: `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWD}@cluster0.fmjrv.mongodb.net/rest-api`,
+};
